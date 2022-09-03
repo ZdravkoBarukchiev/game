@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wizard game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="start-screen">Press to Start</div>
+      <div class="game-screen hidden">
+        <div class="score">0 pts.</div>
+        <div class="cloud1"></div>
+        <div class="cloud2"></div>
+        <div class="cloud3"></div>
+        <div class="cloud4"></div>
+        <div class="cloud5"></div>
+      </div>
+      <div class="game-over-screen hidden">
+        <div class="game-over">GAME OVER</div>
+        <div class="total-points">0 pts.</div>
+      </div>
+    </div>
+    <script src="/src/js/gameObjects.js"></script>
+    <script src="/src/js/gameState.js"></script>
+    <script src="/src/js/gameEngine.js"></script>
+    <script src="/src/js/main.js"></script>
+  </body>
+</html>
